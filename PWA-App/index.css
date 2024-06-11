@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Jacquard+12&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    background-color:rgb(22, 34, 49);
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+}
+.header-logo{
+    font-family: "climate crisis";
+    font-size: 1.2rem;
+    color: white;
+    font-weight:lighter;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+.background-img{
+    background-image: url("img/fondo.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
+.main-home {
+    background-color: rgb(38, 53, 57);
+    color: #fff;
+    font-family: "Jacquard 12";
+    font-size: 1.3em;
+}
+.home-about{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: rgb(21, 15, 28);
+    padding: 2rem;
+}
+.logo-game{
+
+}
+.footer{
+    background-color: rgb(50, 50, 50);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+hr{
+    color: aqua;
+}
